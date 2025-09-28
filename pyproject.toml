@@ -1,7 +1,7 @@
 [project]
 name = "nrec-iac-universities"
 version = "0.1.0"
-description = "Add your description here"
+description = "This is IaC for NREC."
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = []
