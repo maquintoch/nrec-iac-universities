@@ -3,12 +3,12 @@ name: configuration-example
 runtime: python
 config:
     openstack:authUrl:
-        value: http://myauthurl:5000/v3
+        value: ${OPENSTACK_AUTHURL}
     openstack:password:
-        value: pwd
+        value: ${PENSTACK_PASSWORD}
     openstack:region:
-        value: RegionOne
+        value: ${OPENSTACK_REGION}
     openstack:tenantName:
-        value: admin
+        value: ${OPENSTACK_TENANTNAME}
     openstack:userName:
-        value: admin
+        value: ${PENSTACK_TENANTNAME}
