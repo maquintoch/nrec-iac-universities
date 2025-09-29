@@ -1,0 +1,14 @@
+# Pulumi.yaml provider configuration file
+name: configuration-example
+runtime: python
+config:
+    openstack:authUrl:
+        value: ${OPENSTACK_AUTHURL}
+    openstack:password:
+        value: ${PENSTACK_PASSWORD}
+    openstack:region:
+        value: ${OPENSTACK_REGION}
+    openstack:tenantName:
+        value: ${OPENSTACK_TENANTNAME}
+    openstack:userName:
+        value: ${PENSTACK_TENANTNAME}
